@@ -18,7 +18,7 @@ function toggleValue() {
     class="flex md:flex-row flex-col items-center"
     :class="first ? 'fadeIn' : 'fadeOut'"
   >
-    <div class="md:w-[50%] w-[70%] mx-auto mb-10 md:mb-0">
+    <div class="md:w-[50%] w-[70%] hidden md:block mx-auto mb-10 md:mb-0">
       <img
         src="/images/triangle.png"
         class="w-full md:h-full absolute md:top-0 top-[210px] xl:-left-[290px] xl:w-[70%] md:-left-[190px] -left-[90px] h-[80%]"
@@ -58,7 +58,7 @@ function toggleValue() {
     :class="!first ? 'fadeIn' : 'fadeOut'"
     class="flex flex-col items-center"
   >
-    <div class="md:w-[50%] w-[100%] mx-auto mb-10 md:mb-0 md:mt-20">
+    <div class="md:w-[50%] w-[100%] hidden md:block mx-auto mb-10 md:mb-0 md:mt-20">
       <img
         src="/images/machine.png"
         class="w-full md:h-full absolute md:top-[100px] top-[290px] xl:w-[70%] left-[0px] h-[80%]"
