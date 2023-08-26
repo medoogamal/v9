@@ -124,7 +124,7 @@ const sendEmail = async () => {
       </div>
       <img src="/images/light.png" alt="" />
     </div>
-    <div class="section-6 h-[1000px] -mt-1 relative py-20">
+    <div class="section-6 md:h-[1000px] -mt-1 relative py-20">
       <TriangleSection />
     </div>
     <div class="section-before relative">
