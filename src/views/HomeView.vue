@@ -167,7 +167,7 @@ const sendEmail = async () => {
       </div>
     </div>
     <div class="section-10 -mt-1 relative py-32">
-      <div class="container mx-auto px-3 grid grid-cols-2 md:w-[55%]">
+      <div class="container mx-auto px-3 grid grid-col-1 md:grid-cols-2 md:w-[55%]">
         <div class="flex items-center gap-3 m-3" v-motion-pop-visible>
           <phone :size="34" />
           <p class="md:text-xl text-sm">+971 52 512 7772</p>
